@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #dde2eb;
+    color: #2a324b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 0;
+    width: 70%;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.category-button {
+    background-color: #2a324b;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.category-button:hover {
+    background-color: #58699d;
+}
+
+.category-button.selected {
+    background-color: white;
+    color: black;
+}
+
+main {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    width: 70%;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+main h2 {
+    color: #2a324b;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main ul li a {
+    color: #58699d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
